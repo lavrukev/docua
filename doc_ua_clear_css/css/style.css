@@ -1,0 +1,93 @@
+html {
+	background-color: #d1d1d1;
+}
+body {
+	background-color: #fff;
+	width: 850px;
+	margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Arial, serif;
+    font-size: 16px;
+}
+header, section {
+	width: 800px;
+	margin: 0 auto;
+}
+header {
+	padding: 20px;
+}
+.header_pic {
+	width: 800px;
+	height: 150px;
+}
+.title {
+	text-align: center;
+    margin: 25px auto;
+    display: block;
+}
+p {
+	line-height: 15px;
+	padding: 10px 0;
+}
+.pic {
+	height: 305px;
+}
+.description {
+	display: block;
+	min-height: 70px;
+	line-height: 1.5;
+}
+button {
+	margin: 25px 0;
+	width: 100%;
+	line-height: 40px;
+	font-size: 22px;
+	border-radius: 10px;
+	background-color: #cf5b4e;
+	color: #fff;
+}
+.main, .sidebar {
+	width: 380px;
+	padding: 10px;
+	float: left;
+	/*position: relative;*/
+}
+.gyneco, .cardio, .neuro {
+    width: 250px;
+    padding: 8px;
+    height: 450px;
+    float: left;
+    position: relative;
+}
+.assets {
+	width: 250px;
+}
+.clear {
+	clear: both;
+}
+section footer {
+	padding: 50px 0;
+}
+.final_button, .last-text {
+	margin-top: 50px;
+}
+.last-text p {
+	font-style: italic;
+}
+.last-text p:first-child {
+	font-style: normal;
+}
+footer p, .last-href{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    line-height: 20px;
+    background-color: #d1d1d1;
+}
+footer p:last-child {
+	/*font-style: italic;*/
+}
