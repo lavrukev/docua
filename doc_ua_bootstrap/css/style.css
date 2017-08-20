@@ -1,17 +1,17 @@
 body {
 	background-color: #d1d1d1;
 }
-.container {
-	background-color: #fff;
-}
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Tahoma, Arial, serif;
     font-size: 16px;
 }
+.container {
+	background-color: #fff;
+}
 .header_pic {
-	height: 150px;
+	height: auto;
 	width: 100%;
 	margin: 20px auto;
 }
@@ -29,6 +29,7 @@ button {
 	border-radius: 10px;
 	background-color: #cf5b4e;
 	color: #fff;
+	border: none;
 }
 .gyneco, .cardio, .neuro {
     width: 250px;
@@ -38,6 +39,7 @@ button {
 }
 footer, footer a {
     color: #fff;
+    padding-top: 30px;
 }
 footer .container {
 	background-color: #d1d1d1;
