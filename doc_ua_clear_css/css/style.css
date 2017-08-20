@@ -48,12 +48,12 @@ button {
 	border-radius: 10px;
 	background-color: #cf5b4e;
 	color: #fff;
+	border: none;
 }
 .main, .sidebar {
 	width: 380px;
 	padding: 10px;
 	float: left;
-	/*position: relative;*/
 }
 .gyneco, .cardio, .neuro {
     width: 250px;
