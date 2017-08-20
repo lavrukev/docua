@@ -74,7 +74,7 @@ section footer {
 .final_button, .last-text {
 	margin-top: 50px;
 }
-.last-text p {
+.last-text p, .last-text h6 {
 	font-style: italic;
 }
 .last-text p:first-child {
